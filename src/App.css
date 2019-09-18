@@ -1,4 +1,4 @@
-:root{
+:root {
   --mainBlue: #2a2a72;
   --lightBlue: #009ffd;
   --mainWhite: #f3f3f3;
@@ -7,23 +7,23 @@
 }
 
 /* remenber put important in the fonts to override bootstrap */
-body{
+body {
   /* here the font goes */
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
-.text-title{
+.text-title {
   /* here goes another font */
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
-.text-blue{
+.text-blue {
   color: var(--mainBlue);
 }
-.text-bright{
+.text-bright {
   color: var(--lightBLue);
 }
-.btn-black{
+.btn-black {
   background: transparent;
   text-transform: capitalize;
   font-size: 0.8rem !important;
@@ -32,17 +32,27 @@ body{
   border: 0.1rem solid var(--mainDark) !important;
 }
 
-.btn-black:hover{
-  background: var(--mainDark)!important;
+.btn-black:hover {
+  background: var(--mainDark) !important;
   color: var(--mainWhite) !important;
 }
 
-.cart-icon{
+.cart-icon {
   cursor: pointer;
   font-size: 0.2rem;
   color: var(--mainYellow);
 }
 
-.fas.fa-trash{
-  font-size: 24px
+.fas.fa-trash {
+  font-size: 24px;
+}
+.artist-description article {
+  width: 90%;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  text-align: justify;
+}
+.artist-img{
+  text-align: center;
+  padding: 2rem;
 }
